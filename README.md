@@ -1,16 +1,68 @@
-## Hi there 👋
+<h1 align="center">Hey 👋, I'm Piyush Kumar Tiwari</h1>
+<h3 align="center">🚀 B.Tech CSE Student | 💻 Python Enthusiast | 🤖 AI Chatbot Developer (Chintoo)</h3>
 
-<!--
-**codepiyusss/codepiyusss** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <img src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/media/7ed7d5ca074b48b328150e5a231e8d1f.gif" width="280"/>
+</p>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 👨‍🎓 About Me
+
+- 🎓 I'm a **B.Tech Computer Science & Engineering student** at **Ramchandre Chandrawanshi Institute of Technology**, Palamu, Jharkhand  
+- 🌱 Currently working on **Chintoo** — an AI-powered chatbot inspired by ChatGPT  
+- 🧠 Exploring Python, OpenAI APIs, Web Dev & machine learning  
+- 🧑‍💻 Passionate about building smart, helpful, and clean UIs for real-world use  
+- 🧘‍♂️ I believe in simplicity, curiosity, and consistency in code and life  
+
+---
+
+### 🛠️ Tech Stack
+
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=codepiyusss&show_icons=true&theme=tokyonight" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com?user=codepiyusss&theme=tokyonight" />
+</p>
+
+---
+
+### 🔗 Connect with Me
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/piyush-tiwari-b984a0356" target="_blank">
+    <img src="https://img.icons8.com/fluency/48/linkedin.png" alt="LinkedIn"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.instagram.com/def_piyush/" target="_blank">
+    <img src="https://img.icons8.com/fluency/48/instagram-new.png" alt="Instagram"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:info.piyushtiwari@gmail.com" target="_blank">
+    <img src="https://img.icons8.com/fluency/48/gmail-new.png" alt="Gmail"/>
+  </a>
+</p>
+
+---
+
+### ✨ Quote I Live By
+
+> "Stay curious, keep building, and let your code speak louder than your words."
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0f0c29,302b63,24243e&height=120&section=footer"/>
+</p>

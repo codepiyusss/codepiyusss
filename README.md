@@ -9,10 +9,9 @@
 
 ### 👨‍🎓 About Me
 
-- 🎓 I'm a **B.Tech Computer Science & Engineering student** at **Ramchandre Chandrawanshi Institute of Technology**, Palamu, Jharkhand  
-- 🌱 Currently working on **Chintoo** — an AI-powered chatbot inspired by ChatGPT  
-- 🧠 Exploring Python, OpenAI APIs, Web Dev & machine learning  
-- 🧑‍💻 Passionate about building smart, helpful, and clean UIs for real-world use  
+- 🎓 I'm a **B.Tech, Computer Science & Engineering student** at **Ramchandre Chandrawanshi Institute of Technology**, Palamu, Jharkhand  
+- 🧠 Exploring Python, APIs, Web Dev & machine learning  
+- 🧑‍💻 Passionate about building smart, and helpful project for real-world use  
 - 🧘‍♂️ I believe in simplicity, curiosity, and consistency in code and life  
 
 ---
@@ -20,12 +19,9 @@
 ### 🛠️ Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ---

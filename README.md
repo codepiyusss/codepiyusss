@@ -1,32 +1,31 @@
-<h1 align="center">Hey 👋, I'm Piyush Kumar Tiwari</h1>
-<h3 align="center">🚀 B.Tech CSE Student | 💻 Python Enthusiast | 🤖 AI Chatbot Developer (Chintoo)</h3>
+<h1 align="center">Hey, I'm Piyush Kumar Tiwari</h1>
+<h3 align="center">Python, B.Tech CSE Student</h3>
 
 <p align="center">
-  <img src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/media/7ed7d5ca074b48b328150e5a231e8d1f.gif" width="280"/>
+  <img src="[https://cdn.dribbble.com/users/1162077/screenshots/3848914/media/7ed7d5ca074b48b328150e5a231e8d1f.gif](https://media.tenor.com/y2JXkY1pXkwAAAAM/cat-computer.gif)" width="280"/>
 </p>
 
 ---
 
-### 👨‍🎓 About Me
+### About Me
 
-- 🎓 I'm a **B.Tech, Computer Science & Engineering student** at **Ramchandre Chandrawanshi Institute of Technology**, Palamu, Jharkhand  
-- 🧠 Exploring Python, APIs, Web Dev & machine learning  
-- 🧑‍💻 Passionate about building smart, and helpful project for real-world use  
-- 🧘‍♂️ I believe in simplicity, curiosity, and consistency in code and life  
+- I'm a **B.Tech, Computer Science & Engineering student** at **Ramchandre Chandravanshi Institute of Technology**, Palamu, Jharkhand  
+- Exploring Python, APIs, Web Dev & machine learning  
+- Passionate about building smart, and helpful project for real-world use  
+- I believe in simplicity, curiosity, and consistency in code and life  
 
 ---
 
-### 🛠️ Tech Stack
+### Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ---
 
-### 📊 GitHub Stats
+### GitHub Stats
 
 <p align="center">
   <img width="48%" src="https://github-readme-stats.vercel.app/api?username=codepiyusss&show_icons=true&theme=tokyonight" />
@@ -35,7 +34,7 @@
 
 ---
 
-### 🔗 Connect with Me
+### Connect with Me
 
 <p align="left">
   <a href="https://www.linkedin.com/in/piyush-tiwari-b984a0356" target="_blank">

@@ -2,7 +2,7 @@
 <h3 align="center"> Python Enthusiast | CSE AI/ML </h3>
 
 <p align="center">
-  <img src="https://media.tenor.com/itjFesV8_RUAAAAi/soulja-boy-pepe.gif" width="200"/> <img src="https://media1.tenor.com/m/G1ZZM3TYLQgAAAAC/stop-vibe.gif" width="280"/> 
+  <img src="https://media.tenor.com/itjFesV8_RUAAAAi/soulja-boy-pepe.gif" width="200"/>
 </p>
 
 ---

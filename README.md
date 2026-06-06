@@ -1,64 +1,78 @@
-<h1 align="center">Hey!, I'm Piyush Kumar Tiwari</h1>
-<h3 align="center"> Python Enthusiast | CSE AI/ML </h3>
+# Hi, I'm Piyush Kumar Tiwari
+
+### Computer Science Engineering (AI/ML) Student | Python Developer | AI Enthusiast
+
+I am a Computer Science Engineering student specializing in Artificial Intelligence and Machine Learning, passionate about building practical software solutions and continuously improving my development skills.
+
+Currently focused on Python development, Machine Learning fundamentals, Full Stack Development, and AI-powered applications.
+
+---
+
+## About Me
+
+* B.Tech CSE (AI/ML) Student at Ramchandra Chandravanshi Institute of Technology
+* Passionate about Python, AI/ML, APIs, and Web Development
+* Building real-world projects to strengthen problem-solving skills
+* Exploring modern technologies and software engineering practices
+* Open to internships, collaborations, and learning opportunities
+
+---
+
+## Current Focus
+
+* Machine Learning
+* Python Development
+* Full Stack Web Development
+* AI-Powered Applications
+* Data Structures & Algorithms
+
+---
+
+## Tech Stack
+
+### Languages
+
+Python • C • HTML • CSS • JavaScript
+
+### Tools & Technologies
+
+Git • GitHub • VS Code • REST APIs
+
+### Currently Learning
+
+Machine Learning • AI Engineering • Backend Development
+
+---
+
+## GitHub Statistics
 
 <p align="center">
-  <img src="https://media.tenor.com/itjFesV8_RUAAAAi/soulja-boy-pepe.gif" width="200"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=codepiyusss&show_icons=true&theme=tokyonight" height="170"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=codepiyusss&theme=tokyonight" height="170"/>
 </p>
-
----
-
-### ⁍ About Me
-
--  I'm a **Computer Science & Engineering student** at **Ramchandra Chandravanshi Institute of Technology**, Palamu, Jharkhand  
--  Exploring Python, APIs, Web Dev & machine learning  
--  Passionate about building smart, and helpful project for real-world use  
--  I believe in simplicity, curiosity, and consistency in code and life  
-
----
-
-### ⁍ Tech Stack
-
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
----
-
-### ⁍ GitHub Stats
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=codepiyusss&show_icons=true&theme=tokyonight" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com?user=codepiyusss&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codepiyusss&layout=compact&theme=tokyonight"/>
 </p>
 
 ---
 
-### ⁍ Connect with Me
+## Connect With Me
 
-<p align="left">
-  <a href="https://www.linkedin.com/in/piyush-tiwari-b984a0356" target="_blank">
-    <img src="https://img.icons8.com/fluency/48/linkedin.png" alt="LinkedIn"/>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://www.instagram.com/def_piyush/" target="_blank">
-    <img src="https://img.icons8.com/fluency/48/instagram-new.png" alt="Instagram"/>
-  </a>
-  &nbsp;&nbsp;
-  <a href="mailto:info.contactpiyush@gmail.com" target="_blank">
-    <img src="https://img.icons8.com/fluency/48/gmail-new.png" alt="Gmail"/>
-  </a>
-</p>
+* LinkedIn: [www.linkedin.com/in/piyush-tiwari-b984a0356](http://www.linkedin.com/in/piyush-tiwari-b984a0356)
+* Instagram: @def_piyush
+* Email: [info.contactpiyush@gmail.com](mailto:info.contactpiyush@gmail.com)
 
 ---
 
-### ⁍⁍⁍ Quote I Live By
+## 2026 Goals
 
-> "Stay curious, keep building, and let your code speak louder than your words."
+* Secure a Software Development Internship
+* Build Production-Level AI Projects
+* Strengthen DSA and Problem Solving
+* Contribute to Open Source
+* Become an AI Engineer
 
 ---
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0f0c29,302b63,24243e&height=120&section=footer"/>
-</p>
+> Building today what I once thought was impossible.

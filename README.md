@@ -32,43 +32,27 @@ Currently focused on Python development, Machine Learning fundamentals, Full Sta
 
 ### Languages
 
-Python • C • HTML • CSS • JavaScript
-
-### Tools & Technologies
-
-Git • GitHub • VS Code • REST APIs
+* Python Programming
+* Java Programming
+* Full StackDev
+* Flask, NumPy
 
 ### Currently Learning
 
-Machine Learning • AI Engineering • Backend Development
-
----
-
-## GitHub Statistics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=codepiyusss&show_icons=true&theme=tokyonight" height="170"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=codepiyusss&theme=tokyonight" height="170"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codepiyusss&layout=compact&theme=tokyonight"/>
-</p>
+* Machine Learning
+* AI Engineering
+* Backend Development
 
 ---
 
 ## Connect With Me
 
-* LinkedIn: [www.linkedin.com/in/piyush-tiwari-b984a0356](http://www.linkedin.com/in/piyush-tiwari-b984a0356)
-* Instagram: @def_piyush
-* Email: [info.contactpiyush@gmail.com](mailto:info.contactpiyush@gmail.com)
+* LinkedIn  .: [www.linkedin.com/in/piyush-tiwari-b984a0356](http://www.linkedin.com/in/piyush-tiwari-b984a0356)
+* Instagram .: [https://www.instagram.com/def_piyush/](https://www.instagram.com/def_piyush/)
+* Email     .: [info.contactpiyush@gmail.com](mailto:info.contactpiyush@gmail.com)
 
 ---
 
-## 2026 Goals
-
-* Secure a Software Development Internship
-* Build Production-Level AI Projects
 * Strengthen DSA and Problem Solving
 * Contribute to Open Source
 * Become an AI Engineer

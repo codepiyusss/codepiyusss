@@ -1,6 +1,7 @@
 # Hi, I'm Piyush Kumar Tiwari
 
 ### Computer Science Engineering (AI/ML) Student | Python Developer | AI Enthusiast
+![](https://komarev.com)
 
 I am a Computer Science Engineering student specializing in Artificial Intelligence and Machine Learning, passionate about building practical software solutions and continuously improving my development skills.
 

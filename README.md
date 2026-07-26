@@ -1,11 +1,12 @@
 # Piyush Kumar Tiwari
-<br>
+---
+## Skills:
 <p>
 <img src="https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-sqaure&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/Numpy-777BB4?style=flat-sqaure&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/Flask-000000?style=flat-sqaure&logo=Flask&logoColor=white"/>
-<img src="https://img.shields.io/badge/Numpy-777BB4?style=flat-sqaure&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/Numpy-777BB4?style=flat-square&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=Flask&logoColor=white"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
   
 <img src="https://komarev.com/ghpvc/?username=codepiyusss&label=Views&style=flat-square&color=0A66C2"/>
 </p>

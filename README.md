@@ -5,19 +5,21 @@
 ## Skills:
 <p>
 <img src="https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
 <img src="https://img.shields.io/badge/Numpy-777BB4?style=flat-square&logo=numpy&logoColor=white"/>
 <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=Flask&logoColor=white"/>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
 <img src="https://img.shields.io/badge/-CSS-000?style=flat-square&logo=CSS&logoColor=white"/>
 <img src="https://img.shields.io/badge/node.js-339933?style=flat-square&logo=Node.js&logoColor=white"/>
 <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white"/>
-  
+
 Interested in Machine Learning, backend engineering, and AI systems.
 
 Currently learning by building.
 
-<br>
+---
+
+### Socials: 
 
 <p>
 <a href="https://github.com/codepiyusss">

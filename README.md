@@ -1,5 +1,7 @@
 # Piyush Kumar Tiwari
----
+
+<img src="https://komarev.com/ghpvc/?username=codepiyusss&label=Views&style=for-the-badge&color=0A66C2"/>
+
 ## Skills:
 <p>
 <img src="https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=white"/>
@@ -7,10 +9,10 @@
 <img src="https://img.shields.io/badge/Numpy-777BB4?style=flat-square&logo=numpy&logoColor=white"/>
 <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=Flask&logoColor=white"/>
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/-CSS-000?style=flat-square&logo=CSS&logoColor=white"/>
+<img src="https://img.shields.io/badge/node.js-339933?style=flat-square&logo=Node.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white"/>
   
-<img src="https://komarev.com/ghpvc/?username=codepiyusss&label=Views&style=flat-square&color=0A66C2"/>
-</p>
-
 Interested in Machine Learning, backend engineering, and AI systems.
 
 Currently learning by building.
@@ -34,5 +36,4 @@ Currently learning by building.
 <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white"/>
 </a>
 
-<img src="https://komarev.com/ghpvc/?username=codepiyusss&label=Views&style=flat-square&color=0A66C2"/>
 </p>

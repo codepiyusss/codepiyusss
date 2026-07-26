@@ -1,63 +1,37 @@
-# Hi, I'm Piyush Kumar Tiwari
+# Piyush Kumar Tiwari
+<br>
+<p>
+<img src="https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-sqaure&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/Numpy-777BB4?style=flat-sqaure&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/Flask-000000?style=flat-sqaure&logo=Flask&logoColor=white"/>
+<img src="https://img.shields.io/badge/Numpy-777BB4?style=flat-sqaure&logo=numpy&logoColor=white"/>
+  
+<img src="https://komarev.com/ghpvc/?username=codepiyusss&label=Views&style=flat-square&color=0A66C2"/>
+</p>
 
-### Computer Science Engineering (AI/ML) Student | Python Developer | AI Enthusiast
-![](https://komarev.com)
+Interested in Machine Learning, backend engineering, and AI systems.
 
-I am a Computer Science Engineering student specializing in Artificial Intelligence and Machine Learning, passionate about building practical software solutions and continuously improving my development skills.
+Currently learning by building.
 
-Currently focused on Python development, Machine Learning fundamentals, Full Stack Development, and AI-powered applications.
+<br>
 
----
+<p>
+<a href="https://github.com/codepiyusss">
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
+</a>
+  
+<a href=":/https/intagram.com/p.yussh">
+<img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white"/>
+</a>
 
-## About Me
+<a href="https://www.linkedin.com/in/piyush-tiwari-b984a0356">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/>
+</a>
 
-* B.Tech CSE (AI/ML) Student at Ramchandra Chandravanshi Institute of Technology
-* Passionate about Python, AI/ML, APIs, and Web Development
-* Building real-world projects to strengthen problem-solving skills
-* Exploring modern technologies and software engineering practices
-* Open to internships, collaborations, and learning opportunities
+<a href="mailto:info.contactpiyush@gmail.com">
+<img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white"/>
+</a>
 
----
-
-## Current Focus
-
-* Machine Learning
-* Python Development
-* Full Stack Web Development
-* AI-Powered Applications
-* Data Structures & Algorithms
-
----
-
-## Tech Stack
-
-### Languages
-
-* Python Programming
-* Java Programming
-* Full StackDev
-* Flask, NumPy
-
-### Currently Learning
-
-* Machine Learning
-* AI Engineering
-* Backend Development
-
----
-
-## Connect With Me
-
-* LinkedIn  .: [www.linkedin.com/in/piyush-tiwari-b984a0356](http://www.linkedin.com/in/piyush-tiwari-b984a0356)
-* Instagram .: [https://www.instagram.com/def_piyush/](https://www.instagram.com/def_piyush/)
-* Email     .: [info.contactpiyush@gmail.com](mailto:info.contactpiyush@gmail.com)
-
----
-
-* Strengthen DSA and Problem Solving
-* Contribute to Open Source
-* Become an AI Engineer
-
----
-
-> Building today what I once thought was impossible.
+<img src="https://komarev.com/ghpvc/?username=codepiyusss&label=Views&style=flat-square&color=0A66C2"/>
+</p>

@@ -1,5 +1,5 @@
 # Piyush Kumar Tiwari
-<img src="https://komarev.com/ghpvc/?username=codepiyusss&label=Views&style=for-the-badge&color=0A66C2&base=12000" alt="Views" />
+<img src="https://komarev.com/ghpvc/?username=codepiyusss&label=Views&style=for-the-badge&color=0A66C2&base=7000" alt="Views" />
 <!-- <img src="https://komarev.com/ghpvc/?username=codepiyusss&label=Views&style=for-the-badge&color=0A66C2"/> -->
 
 ## Skills:

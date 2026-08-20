@@ -1,4 +1,5 @@
-# Piyush Kumar Tiwari
+# Piyush Tiwari
+
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=codepiyusss&label=Views&style=for-the-badge&color=0A66C2&base=5000" alt="Views" />
   <img src="https://img.shields.io/github/followers/codepiyusss?label=Followers&style=for-the-badge&color=blue" alt="Followers" />

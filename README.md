@@ -1,4 +1,4 @@
-# Piyush Tiwari
+# Hi, I'm Piyush <img src="https://raw.githubusercontent.com/vinkay215/vinkay215/refs/heads/main/img/verified.gif" width=20 />
 
 <p>
   <img src="https://komarev.com/ghpvc/?username=codepiyusss&label=Views&style=flat-square&color=AA00FF&base=5500" alt="Views" />

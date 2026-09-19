@@ -1,7 +1,7 @@
 # Hi, I'm Piyush <img src="https://raw.githubusercontent.com/vinkay215/vinkay215/refs/heads/main/img/verified.gif" width=20 />
 
 <p>
-  <img src="https://komarev.com/ghpvc/?username=codepiyusss&label=Views&style=flat-square&color=AA00FF&base=5500" alt="Views" />
+  <img src="https://komarev.com/ghpvc/?username=codepiyusss&label=Views&style=flat-square&color=AA00FF&base=5796" alt="Views" />
   <img src="https://img.shields.io/github/followers/codepiyusss?label=Followers&style=flat-square&color=blue" alt="Followers" />
 </p>
 

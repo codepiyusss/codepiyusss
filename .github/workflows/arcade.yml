@@ -1,34 +1,44 @@
-name: Generate arcade animation
+name: Generate Spider-Man Contribution Game
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
+  schedule:
+    - cron: "0 */12 * * *"
 
   workflow_dispatch:
 
   push:
     branches:
-    - main
+      - main
 
 jobs:
   generate:
     permissions:
       contents: write
+
     runs-on: ubuntu-latest
+
     timeout-minutes: 20
 
     steps:
-      - name: generate pacman-contribution-graph.svg
-        uses: abozanona/pacman-contribution-graph@main
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          github_user_name: ${{ github.repository_owner }}
-          games: 'pacman'
+          python-version: "3.x"
 
+      - name: Generate Spider-Man contribution game
+        run: |
+          python spider-game/generate.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
 
-      - name: push pacman-contribution-graph.svg to the output branch
+      - name: Push animation to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: pacman-output
+          target_branch: spider-output
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,8 +1,7 @@
 # Piyush <img src="https://raw.githubusercontent.com/vinkay215/vinkay215/refs/heads/main/img/verified.gif" width=20 />
 
-<p>
-  <img src="https://komarev.com/ghpvc/?username=codepiyusss&style=for-the-badge&logo=python&logoColor=white&base=5796" alt="Views" />
-</p>
+![Profile Views](https://komarev.com/ghpvc/?username=codepiyusss&label=▶︎&style=for-the-badge&logo=python&color=000000&base=5796)
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-111111?style=for-the-badge\&logoColor=white)](https://portfolio-phi-fawn-98dglblujq.vercel.app/)
 
 Computer Science student · Python · AI/ML
 

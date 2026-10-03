@@ -1,8 +1,8 @@
 # Piyush <img src="https://raw.githubusercontent.com/vinkay215/vinkay215/refs/heads/main/img/verified.gif" width=20 />
 
 
-![Profile Views](https://komarev.com/ghpvc/?username=codepiyusss&label=▶︎&style=for-the-badge&logo=python&color=000000&base=5796)
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-111111?style=for-the-badge\&logoColor=white)](https://portfolio-phi-fawn-98dglblujq.vercel.app/)
+![Profile Views](https://komarev.com/ghpvc/?username=codepiyusss&label=▶︎&style=for-the-badge&logo=python&color=0d1117&base=5796)
+[![Portfolio](https://img.shields.io/badge/Portfoilo-0d1117?style=for-the-badge&logo=product-hunt&logoColor=ff1e27&labelColor=0d1117)](https://portfolio-phi-fawn-98dglblujq.vercel.app/)
 <!--<img width="32" height="38" alt="image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a5874086-8b7b-4657-a21f-c97383d15603/d78sffu-f43d0284-067c-4781-a69d-27e2ea00f41f.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi9hNTg3NDA4Ni04YjdiLTQ2NTctYTIxZi1jOTczODNkMTU2MDMvZDc4c2ZmdS1mNDNkMDI4NC0wNjdjLTQ3ODEtYTY5ZC0yN2UyZWEwMGY0MWYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Rs-SBhJ2-ydslQXLyrqvyX8hOPknw0RnWKnlXawfJFw" /> 
 -->
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&duration=2500&pause=1000&color=FF1E27&center=false&vCenter=false&width=435&lines=Computer+Science+Student;Python+%7C+AI%2FML;With+great+power+comes.....no+repository.)](https://git.io/typing-svg)
@@ -15,8 +15,8 @@
 
 
 ![Python](https://img.shields.io/badge/PYTHON-0d1117?style=for-the-badge&logo=python&logoColor=ff1e27&labelColor=0d1117)
-![AI](https://img.shields.io/badge/AI-0d1117?style=for-the-badge&logo=openai&logoColor=ff1e27&labelColor=0d1117)
-![Machine Learning](https://img.shields.io/badge/MACHINE_LEARNING-0d1117?style=for-the-badge&logo=pytorch&logoColor=ff1e27&labelColor=0d1117)
+![AI](https://img.shields.io/badge/AI-0d1117?style=for-the-badge&logo=metaai&logoColor=ff1e27&labelColor=0d1117)
+![Machine Learning](https://img.shields.io/badge/MACHINE_LEARNING-0d1117?style=for-the-badge&logo=scikit-learn&logoColor=ff1e27&labelColor=0d1117)
 ![Git](https://img.shields.io/badge/GIT-0d1117?style=for-the-badge&logo=git&logoColor=ff1e27&labelColor=0d1117)
 <img align="right" width="220" src="https://github.com/user-attachments/assets/f09bd64e-f42b-4c27-9173-c580cf540b5d" />
 <br clear="right"/>

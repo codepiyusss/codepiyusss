@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 120" width="720" height="auto">
+  <rect width="720" height="120" fill="#ffffff"/>
+  <text x="26" y="22" fill="#333333" font-family="monospace" font-size="12" font-weight="700">GitHub Activity</text>
+  <g>
+    <rect x="28" y="38" width="10" height="10" fill="#ebedf0" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="40" y="38" width="10" height="10" fill="#c6e48b" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="52" y="38" width="10" height="10" fill="#30a14e" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="64" y="38" width="10" height="10" fill="#ebedf0" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="76" y="38" width="10" height="10" fill="#7ee787" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="88" y="38" width="10" height="10" fill="#c6e48b" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="100" y="38" width="10" height="10" fill="#ebedf0" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="28" y="50" width="10" height="10" fill="#7ee787" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="40" y="50" width="10" height="10" fill="#30a14e" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="52" y="50" width="10" height="10" fill="#c6e48b" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="64" y="50" width="10" height="10" fill="#ebedf0" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="76" y="50" width="10" height="10" fill="#216e39" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="88" y="50" width="10" height="10" fill="#30a14e" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="100" y="50" width="10" height="10" fill="#c6e48b" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="28" y="62" width="10" height="10" fill="#c6e48b" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="40" y="62" width="10" height="10" fill="#7ee787" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="52" y="62" width="10" height="10" fill="#ebedf0" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="64" y="62" width="10" height="10" fill="#30a14e" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="76" y="62" width="10" height="10" fill="#c6e48b" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="88" y="62" width="10" height="10" fill="#7ee787" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="100" y="62" width="10" height="10" fill="#30a14e" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="28" y="74" width="10" height="10" fill="#7ee787" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="40" y="74" width="10" height="10" fill="#ebedf0" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="52" y="74" width="10" height="10" fill="#216e39" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="64" y="74" width="10" height="10" fill="#7ee787" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="76" y="74" width="10" height="10" fill="#30a14e" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="88" y="74" width="10" height="10" fill="#ebedf0" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="100" y="74" width="10" height="10" fill="#c6e48b" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="28" y="86" width="10" height="10" fill="#30a14e" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="40" y="86" width="10" height="10" fill="#7ee787" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="52" y="86" width="10" height="10" fill="#c6e48b" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="64" y="86" width="10" height="10" fill="#ebedf0" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="76" y="86" width="10" height="10" fill="#7ee787" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="88" y="86" width="10" height="10" fill="#216e39" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="100" y="86" width="10" height="10" fill="#30a14e" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="28" y="98" width="10" height="10" fill="#7ee787" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="40" y="98" width="10" height="10" fill="#30a14e" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="52" y="98" width="10" height="10" fill="#ebedf0" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="64" y="98" width="10" height="10" fill="#c6e48b" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="76" y="98" width="10" height="10" fill="#216e39" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="88" y="98" width="10" height="10" fill="#7ee787" stroke="#ffffff" stroke-width="0.35"/>
+    <rect x="100" y="98" width="10" height="10" fill="#c6e48b" stroke="#ffffff" stroke-width="0.35"/>
+  </g>
+  <g>
+    <g opacity="1">
+      <circle cx="33" cy="53" r="4.5" fill="#ff1e27"/>
+      <circle cx="31.5" cy="51.5" r="0.9" fill="#111111"/>
+      <circle cx="34.5" cy="51.5" r="0.9" fill="#111111"/>
+      <rect x="29.5" y="51" width="7" height="9" fill="#ff1e27" stroke="#bd1018" stroke-width="0.8"/>
+      <line x1="30" y1="56" x2="30" y2="60" stroke="#ff1e27" stroke-width="0.8"/>
+      <line x1="36" y1="56" x2="36" y2="60" stroke="#ff1e27" stroke-width="0.8"/>
+      <line x1="33" y1="56" x2="57" y2="56" stroke="#333333" stroke-width="0.8" opacity="0.8"/>
+    </g>
+    <g opacity="0.85">
+      <circle cx="57" cy="53" r="4.5" fill="#ff1e27"/>
+      <circle cx="55.5" cy="51.5" r="0.9" fill="#111111"/>
+      <circle cx="58.5" cy="51.5" r="0.9" fill="#111111"/>
+      <rect x="53.5" y="51" width="7" height="9" fill="#ff1e27" stroke="#bd1018" stroke-width="0.8"/>
+      <line x1="54" y1="56" x2="54" y2="60" stroke="#ff1e27" stroke-width="0.8"/>
+      <line x1="60" y1="56" x2="60" y2="60" stroke="#ff1e27" stroke-width="0.8"/>
+      <line x1="57" y1="56" x2="81" y2="56" stroke="#333333" stroke-width="0.8" opacity="0.8"/>
+    </g>
+    <g opacity="0.7">
+      <circle cx="81" cy="53" r="4.5" fill="#ff1e27"/>
+      <circle cx="79.5" cy="51.5" r="0.9" fill="#111111"/>
+      <circle cx="82.5" cy="51.5" r="0.9" fill="#111111"/>
+      <rect x="77.5" y="51" width="7" height="9" fill="#ff1e27" stroke="#bd1018" stroke-width="0.8"/>
+      <line x1="78" y1="56" x2="78" y2="60" stroke="#ff1e27" stroke-width="0.8"/>
+      <line x1="84" y1="56" x2="84" y2="60" stroke="#ff1e27" stroke-width="0.8"/>
+    </g>
+    <circle cx="33" cy="53" r="2.5" fill="none" stroke="#333333" stroke-width="0.6" opacity="0.6"/>
+    <circle cx="81" cy="53" r="2.5" fill="none" stroke="#333333" stroke-width="0.6" opacity="0.5"/>
+  </g>
+</svg>

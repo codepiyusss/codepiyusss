@@ -4,93 +4,156 @@ Spider-Man Web Swing Activity Graph Generator
 Converts GitHub contribution data into a pixel-art Spider-Man web-swinging animation.
 """
 
-import requests
+import os
+import sys
 import json
-from datetime import datetime, timedelta
-from typing import List, Tuple, Dict
-import xml.etree.ElementTree as ET
-from xml.dom import minidom
+import math
+import urllib.request
+import urllib.error
+from datetime import datetime, timedelta, timezone
+from typing import List, Dict
 
-# Constants
-CONTRIBUTION_CELL_SIZE = 12
-CELL_PADDING = 2
-WEEKS_TO_SHOW = 52
-SPIDERMAN_SIZE = 18
-DARK_MODE = {
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+
+# GitHub contribution color palettes
+COLORS_DARK = {
     "bg": "#0d1117",
     "empty": "#161b22",
     "level1": "#0e4429",
     "level2": "#006d32",
     "level3": "#26a641",
     "level4": "#39d353",
-    "spiderman": "#ff1e27",
-    "spiderman_dark": "#cc1818",
-    "web": "#ffffff",
-    "text": "#ffffff",
+    "web": "#f3f6fb",
+    "red": "#ff1e27",
+    "red_dark": "#bd1018",
+    "shadow": "#111111",
 }
-LIGHT_MODE = {
+
+COLORS_LIGHT = {
     "bg": "#ffffff",
     "empty": "#ebedf0",
     "level1": "#c6e48b",
     "level2": "#7ee787",
     "level3": "#30a14e",
     "level4": "#216e39",
-    "spiderman": "#ff1e27",
-    "spiderman_dark": "#cc1818",
     "web": "#333333",
-    "text": "#333333",
+    "red": "#ff1e27",
+    "red_dark": "#bd1018",
+    "shadow": "#111111",
 }
 
 
-def fetch_contribution_data(username: str) -> Dict[str, int]:
-    """Fetch GitHub contribution data from the contribution API."""
-    url = f"https://github.com/{username}"
+def fetch_contribution_data(username: str, token: str = None) -> List[List[int]]:
+    """Fetch GitHub contribution calendar using GraphQL API."""
+    if not token:
+        token = os.environ.get("GITHUB_TOKEN")
+    
+    if not token:
+        print("Warning: GITHUB_TOKEN not found, using fallback data")
+        return generate_fallback_data()
+
+    query = """
+    query($user: String!, $from: DateTime!, $to: DateTime!) {
+      user(login: $user) {
+        contributionsCollection(from: $from, to: $to) {
+          contributionCalendar {
+            weeks {
+              contributionDays {
+                contributionCount
+                date
+              }
+            }
+          }
+        }
+      }
+    }
+    """
+    
+    end = datetime.now(timezone.utc)
+    start = end - timedelta(days=364)  # 52 weeks
+    
+    payload = {
+        "query": query,
+        "variables": {
+            "user": username,
+            "from": start.isoformat(),
+            "to": end.isoformat(),
+        },
+    }
     
     try:
-        # Attempt to fetch the user's profile page and parse contribution data
-        # GitHub's GraphQL API would be better, but this approach works without auth
-        response = requests.get(
-            f"https://api.github.com/users/{username}",
-            timeout=10
+        req = urllib.request.Request(
+            "https://api.github.com/graphql",
+            data=json.dumps(payload).encode("utf-8"),
+            headers={
+                "Authorization": f"Bearer {token}",
+                "User-Agent": USER_AGENT,
+                "Content-Type": "application/json",
+            },
+            method="POST",
         )
         
-        if response.status_code == 200:
-            # Fallback: generate synthetic data based on user's public stats
-            return generate_synthetic_contribution_data()
-        else:
-            return generate_synthetic_contribution_data()
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            result = json.loads(resp.read().decode("utf-8"))
+        
+        if "errors" in result:
+            print(f"GraphQL error: {result['errors']}")
+            return generate_fallback_data()
+        
+        weeks = (
+            result.get("data", {})
+            .get("user", {})
+            .get("contributionsCollection", {})
+            .get("contributionCalendar", {})
+            .get("weeks", [])
+        )
+        
+        if not weeks:
+            print("No contribution data returned")
+            return generate_fallback_data()
+        
+        grid = []
+        for week in weeks:
+            week_data = []
+            for day in week.get("contributionDays", []):
+                count = int(day.get("contributionCount", 0) or 0)
+                week_data.append(count)
+            if week_data:
+                grid.append(week_data)
+        
+        return grid if grid else generate_fallback_data()
+    
     except Exception as e:
-        print(f"Warning: Could not fetch contribution data: {e}")
-        return generate_synthetic_contribution_data()
+        print(f"Error fetching data: {e}")
+        return generate_fallback_data()
 
 
-def generate_synthetic_contribution_data() -> Dict[str, int]:
-    """
-    Generate synthetic but realistic-looking contribution data.
-    In production, this should fetch real data from GitHub GraphQL API.
-    """
-    data = {}
-    today = datetime.now()
-    
-    for i in range(WEEKS_TO_SHOW * 7):
-        date = (today - timedelta(days=i)).strftime("%Y-%m-%d")
-        
-        # Simulate realistic contribution patterns
-        day_of_week = (today - timedelta(days=i)).weekday()
-        
-        # Fewer contributions on weekends
-        base_chance = 0.3 if day_of_week >= 5 else 0.6
-        
-        # Random contributions between 0-20 per day
-        if hash(date) % 100 < base_chance * 100:
-            data[date] = hash(date) % 20
-        else:
-            data[date] = 0
-    
-    return data
+def generate_fallback_data() -> List[List[int]]:
+    """Generate deterministic fallback contribution data."""
+    grid = []
+    for week in range(52):
+        week_data = []
+        for day in range(7):
+            # Deterministic pattern based on week/day indices
+            value = ((week * 7 + day) * 13) % 25
+            week_data.append(value)
+        grid.append(week_data)
+    return grid
 
 
-def get_contribution_level(count: int) -> int:
+def get_color_for_level(level: int, palette: Dict[str, str]) -> str:
+    """Map contribution level to color."""
+    colors = [
+        palette["empty"],
+        palette["level1"],
+        palette["level2"],
+        palette["level3"],
+        palette["level4"],
+    ]
+    return colors[min(level, 4)]
+
+
+def contribution_level(count: int) -> int:
     """Map contribution count to intensity level (0-4)."""
     if count == 0:
         return 0
@@ -104,299 +167,170 @@ def get_contribution_level(count: int) -> int:
         return 4
 
 
-def create_spiderman_sprite(x: float, y: float, pose: str = "idle") -> ET.Element:
-    """Create a pixel-art Spider-Man sprite as SVG group."""
-    group = ET.Element("g")
-    group.set("id", f"spiderman-{pose}")
+def build_grid_svg(grid: List[List[int]], palette: Dict[str, str]) -> str:
+    """Build SVG for the contribution grid."""
+    cell_size = 10
+    gap = 2
+    start_x = 28
+    start_y = 38
     
-    # Simplified pixel-art Spider-Man (roughly 18x18 px)
-    # Head (red/black)
-    head = ET.SubElement(group, "circle")
-    head.set("cx", str(x))
-    head.set("cy", str(y - 5))
-    head.set("r", "4")
-    head.set("fill", DARK_MODE["spiderman"])
+    svg_parts = []
     
-    # Eyes
-    eye1 = ET.SubElement(group, "circle")
-    eye1.set("cx", str(x - 1))
-    eye1.set("cy", str(y - 6))
-    eye1.set("r", "1")
-    eye1.set("fill", "#000")
+    for week_idx, week in enumerate(grid):
+        for day_idx, count in enumerate(week):
+            x = start_x + week_idx * (cell_size + gap)
+            y = start_y + day_idx * (cell_size + gap)
+            level = contribution_level(count)
+            color = get_color_for_level(level, palette)
+            
+            svg_parts.append(
+                f'<rect x="{x}" y="{y}" width="{cell_size}" height="{cell_size}" '
+                f'fill="{color}" stroke="{palette["bg"]}" stroke-width="0.35"/>'
+            )
     
-    eye2 = ET.SubElement(group, "circle")
-    eye2.set("cx", str(x + 1))
-    eye2.set("cy", str(y - 6))
-    eye2.set("r", "1")
-    eye2.set("fill", "#000")
-    
-    # Body
-    body = ET.SubElement(group, "rect")
-    body.set("x", str(x - 3))
-    body.set("y", str(y - 1))
-    body.set("width", "6")
-    body.set("height", "7")
-    body.set("fill", DARK_MODE["spiderman"])
-    body.set("stroke", DARK_MODE["spiderman_dark"])
-    body.set("stroke-width", "0.5")
-    
-    # Legs (simplified)
-    for leg_x in [x - 2, x + 2]:
-        leg = ET.SubElement(group, "line")
-        leg.set("x1", str(leg_x))
-        leg.set("y1", str(y + 5))
-        leg.set("x2", str(leg_x))
-        leg.set("y2", str(y + 8))
-        leg.set("stroke", DARK_MODE["spiderman"])
-        leg.set("stroke-width", "1")
-    
-    return group
+    return "\n".join(svg_parts)
 
 
-def create_web_line(x1: float, y1: float, x2: float, y2: float, opacity: float = 1.0) -> ET.Element:
-    """Create a web line connecting two points."""
-    line = ET.Element("line")
-    line.set("x1", str(x1))
-    line.set("y1", str(y1))
-    line.set("x2", str(x2))
-    line.set("y2", str(y2))
-    line.set("stroke", DARK_MODE["web"])
-    line.set("stroke-width", "0.8")
-    line.set("opacity", str(opacity))
-    return line
-
-
-def create_contribution_grid(
-    contribution_data: Dict[str, int],
-    width: int,
-    height: int,
-    palette: Dict[str, str],
-) -> Tuple[ET.Element, List[Tuple[int, int, int]]]:
-    """
-    Create the contribution graph grid and return grid element + cell positions.
-    Returns: (grid_element, cell_positions_list)
-    cell_positions: [(x, y, level), ...]
-    """
-    grid = ET.Element("g")
-    grid.set("id", "contribution-grid")
+def build_spiderman_svg(grid: List[List[int]], palette: Dict[str, str]) -> str:
+    """Build animated Spider-Man overlay."""
+    svg_parts = []
     
-    cell_positions = []
+    # Calculate grid dimensions
+    num_weeks = len(grid)
+    cell_size = 10
+    gap = 2
+    start_x = 28
+    start_y = 38
     
-    # Sort dates to iterate chronologically
-    sorted_dates = sorted(contribution_data.keys())
+    # Create multiple spider positions for animation effect
+    positions = []
+    for i in range(0, num_weeks, 8):
+        week_idx = i
+        day_idx = (i * 2) % 7
+        x = start_x + week_idx * (cell_size + gap) + cell_size / 2
+        y = start_y + day_idx * (cell_size + gap) + cell_size / 2
+        positions.append((x, y, i))
     
-    # Map dates to grid positions
-    col = 0
-    row = 0
-    
-    for date in sorted_dates:
-        count = contribution_data[date]
-        level = get_contribution_level(count)
+    # Draw spider at each position with decreasing opacity
+    for idx, (x, y, pos_idx) in enumerate(positions):
+        opacity = 1.0 - (idx * 0.15)
+        if opacity <= 0:
+            break
         
-        x = 20 + col * (CONTRIBUTION_CELL_SIZE + CELL_PADDING)
-        y = 40 + row * (CONTRIBUTION_CELL_SIZE + CELL_PADDING)
+        # Simple pixel-art spider
+        svg_parts.append(f'<g opacity="{opacity}">')
         
-        color = [
-            palette["empty"],
-            palette["level1"],
-            palette["level2"],
-            palette["level3"],
-            palette["level4"],
-        ][level]
+        # Head
+        svg_parts.append(
+            f'<circle cx="{x}" cy="{y - 5}" r="4.5" fill="{palette["red"]}"/>'
+        )
         
-        cell = ET.SubElement(grid, "rect")
-        cell.set("x", str(x))
-        cell.set("y", str(y))
-        cell.set("width", str(CONTRIBUTION_CELL_SIZE))
-        cell.set("height", str(CONTRIBUTION_CELL_SIZE))
-        cell.set("fill", color)
-        cell.set("stroke", palette["bg"])
-        cell.set("stroke-width", "0.5")
-        cell.set("class", f"contribution-cell level-{level}")
+        # Eyes
+        svg_parts.append(
+            f'<circle cx="{x - 1.5}" cy="{y - 6.5}" r="0.9" fill="{palette["shadow"]}"/>'
+        )
+        svg_parts.append(
+            f'<circle cx="{x + 1.5}" cy="{y - 6.5}" r="0.9" fill="{palette["shadow"]}"/>'
+        )
         
-        cell_positions.append((x, y, level))
+        # Body
+        svg_parts.append(
+            f'<rect x="{x - 3.5}" y="{y - 2}" width="7" height="9" '
+            f'fill="{palette["red"]}" stroke="{palette["red_dark"]}" stroke-width="0.8"/>'
+        )
         
-        # Move to next row after 7 days (1 week)
-        row += 1
-        if row >= 7:
-            row = 0
-            col += 1
+        # Legs
+        leg_positions = [
+            (x - 3, y + 4),
+            (x + 3, y + 4),
+            (x - 2, y + 7),
+            (x + 2, y + 7),
+        ]
+        
+        for leg_x, leg_y in leg_positions:
+            svg_parts.append(
+                f'<line x1="{leg_x}" y1="{y + 2}" x2="{leg_x}" y2="{leg_y}" '
+                f'stroke="{palette["red"]}" stroke-width="0.8"/>'
+            )
+        
+        # Web strand
+        if idx < len(positions) - 1:
+            next_x, next_y, _ = positions[idx + 1]
+            svg_parts.append(
+                f'<line x1="{x}" y1="{y}" x2="{next_x}" y2="{next_y}" '
+                f'stroke="{palette["web"]}" stroke-width="0.8" opacity="0.8"/>'
+            )
+        
+        svg_parts.append("</g>")
     
-    return grid, cell_positions
+    # Add some web impact circles
+    for idx, (x, y, _) in enumerate(positions[::2]):
+        opacity = 0.6 - (idx * 0.1)
+        if opacity > 0:
+            svg_parts.append(
+                f'<circle cx="{x}" cy="{y}" r="2.5" fill="none" '
+                f'stroke="{palette["web"]}" stroke-width="0.6" opacity="{opacity}"/>'
+            )
+    
+    return "\n".join(svg_parts)
 
 
-def create_svg_with_animation(
-    contribution_data: Dict[str, int],
-    palette: Dict[str, str],
-    is_dark: bool,
-) -> str:
-    """Create complete SVG with Spider-Man animation."""
+def build_svg(grid: List[List[int]], palette: Dict[str, str]) -> str:
+    """Build complete SVG document."""
+    width = len(grid) * 12 + 80
+    height = 120
     
-    # Create root SVG element
-    svg = ET.Element("svg")
-    svg.set("xmlns", "http://www.w3.org/2000/svg")
-    svg.set("viewBox", "0 0 940 190")
-    svg.set("width", "100%")
-    svg.set("height", "auto")
+    grid_svg = build_grid_svg(grid, palette)
+    spider_svg = build_spiderman_svg(grid, palette)
     
-    # Define styles and animations
-    defs = ET.SubElement(svg, "defs")
-    
-    style = ET.SubElement(defs, "style")
-    theme = "dark" if is_dark else "light"
-    
-    animation_css = f"""
-    @keyframes spiderman-swing {{
-        0% {{ transform: translate(0, 0); opacity: 1; }}
-        10% {{ transform: translate(15px, -8px); }}
-        20% {{ transform: translate(30px, -12px); }}
-        30% {{ transform: translate(45px, -10px); }}
-        40% {{ transform: translate(60px, -6px); }}
-        50% {{ transform: translate(75px, 0px); }}
-        60% {{ transform: translate(90px, -8px); }}
-        70% {{ transform: translate(105px, -12px); }}
-        80% {{ transform: translate(120px, -10px); }}
-        90% {{ transform: translate(135px, -6px); }}
-        100% {{ transform: translate(900px, 0px); opacity: 0; }}
+    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="{width}" height="auto">
+  <style>
+    .pulse {{ animation: pulse 4s ease-in-out infinite; }}
+    @keyframes pulse {{
+      0%, 100% {{ opacity: 0.7; }}
+      50% {{ opacity: 1; }}
     }}
+  </style>
+  <rect width="{width}" height="{height}" fill="{palette['bg']}"/>
+  <text x="26" y="22" fill="{palette['web']}" font-family="'Courier New', monospace" font-size="12" font-weight="700">GitHub Activity</text>
+  <g id="contribution-grid">
+{grid_svg}
+  </g>
+  <g id="spider-animation" class="pulse">
+{spider_svg}
+  </g>
+</svg>"""
     
-    @keyframes web-shoot {{
-        0% {{ opacity: 0; stroke-dasharray: 1, 100; }}
-        5% {{ opacity: 1; stroke-dasharray: 100, 0; }}
-        35% {{ opacity: 1; stroke-dasharray: 100, 0; }}
-        45% {{ opacity: 0.7; }}
-        100% {{ opacity: 0; }}
-    }}
-    
-    @keyframes cell-webbed {{
-        0% {{ fill: {palette['level4']}; }}
-        25% {{ fill: {palette['spiderman']}; opacity: 0.9; }}
-        50% {{ fill: {palette['web']}; opacity: 0.6; }}
-        100% {{ fill: {palette['empty']}; opacity: 0.3; }}
-    }}
-    
-    .spiderman-group {{
-        animation: spiderman-swing 12s linear infinite;
-    }}
-    
-    .web-line {{
-        animation: web-shoot 12s linear infinite;
-    }}
-    
-    .contribution-cell {{
-        transition: fill 0.2s ease;
-    }}
-    """
-    
-    style.text = animation_css
-    
-    # Background
-    bg = ET.SubElement(svg, "rect")
-    bg.set("width", "100%")
-    bg.set("height", "100%")
-    bg.set("fill", palette["bg"])
-    
-    # Title
-    title = ET.SubElement(svg, "text")
-    title.set("x", "20")
-    title.set("y", "25")
-    title.set("font-family", "'Courier New', monospace")
-    title.set("font-size", "12")
-    title.set("font-weight", "bold")
-    title.set("fill", palette["text"])
-    title.text = "GitHub Activity"
-    
-    # Create contribution grid
-    grid, cell_positions = create_contribution_grid(contribution_data, 940, 190, palette)
-    svg.append(grid)
-    
-    # Create Spider-Man animation group
-    spider_group = ET.SubElement(svg, "g")
-    spider_group.set("class", "spiderman-group")
-    spider_group.set("id", "spiderman-animated")
-    
-    # Add Spider-Man sprite
-    spiderman = create_spiderman_sprite(0, 50, "swinging")
-    spider_group.append(spiderman)
-    
-    # Add animated web lines (multiple strands for effect)
-    for offset in range(0, 3):
-        web_line = ET.SubElement(spider_group, "line")
-        web_line.set("class", "web-line")
-        web_line.set("x1", "0")
-        web_line.set("y1", "50")
-        web_line.set("x2", str(150 + offset * 50))
-        web_line.set("y2", str(35 + offset * 15))
-        web_line.set("stroke", palette["web"])
-        web_line.set("stroke-width", "0.6")
-        web_line.set("opacity", "0.8")
-        web_line.set("style", f"animation-delay: {offset * 0.2}s;")
-    
-    # Add periodic webbed cell effects
-    if len(cell_positions) > 10:
-        # Animate random cells being "webbed"
-        for i, (x, y, level) in enumerate(cell_positions[::8]):  # Every 8th cell
-            cell_webbed = ET.SubElement(svg, "circle")
-            cell_webbed.set("cx", str(x + CONTRIBUTION_CELL_SIZE / 2))
-            cell_webbed.set("cy", str(y + CONTRIBUTION_CELL_SIZE / 2))
-            cell_webbed.set("r", str(CONTRIBUTION_CELL_SIZE / 2 + 1))
-            cell_webbed.set("fill", "none")
-            cell_webbed.set("stroke", palette["web"])
-            cell_webbed.set("stroke-width", "1")
-            cell_webbed.set("opacity", "0")
-            cell_webbed.set("style", f"animation: cell-webbed 12s linear infinite; animation-delay: {i * 1.5}s;")
-    
-    # Convert to string with proper formatting
-    xml_str = ET.tostring(svg, encoding="unicode")
-    
-    # Pretty print
-    dom = minidom.parseString(xml_str)
-    pretty_xml = dom.toprettyxml(indent="  ")
-    
-    # Remove XML declaration and extra blank lines
-    lines = pretty_xml.split("\n")
-    clean_lines = [line for line in lines[1:] if line.strip()]
-    
-    return "\n".join(clean_lines)
+    return svg
 
 
 def main():
-    """Main generator function."""
-    import sys
-    import os
-    
-    username = sys.argv[1] if len(sys.argv) > 1 else "codepiyusss"
-    
+    if len(sys.argv) < 4:
+        print("Usage: python scripts/generate_spiderman_activity.py <github-user> <output-light> <output-dark>")
+        sys.exit(1)
+
+    username = sys.argv[1]
+    out_light = sys.argv[2]
+    out_dark = sys.argv[3]
+
     print(f"Fetching contribution data for {username}...")
-    contribution_data = fetch_contribution_data(username)
-    
-    if not contribution_data:
-        print("Error: Could not fetch contribution data")
-        return False
-    
-    print(f"Found {len(contribution_data)} days of contribution data")
-    
-    # Create dist directory if it doesn't exist
-    os.makedirs("dist", exist_ok=True)
-    
-    # Generate dark mode SVG
-    print("Generating dark mode SVG...")
-    dark_svg = create_svg_with_animation(contribution_data, DARK_MODE, is_dark=True)
-    with open("dist/spiderman-contribution-graph-dark.svg", "w") as f:
-        f.write(dark_svg)
-    print("✓ Created dist/spiderman-contribution-graph-dark.svg")
-    
-    # Generate light mode SVG
-    print("Generating light mode SVG...")
-    light_svg = create_svg_with_animation(contribution_data, LIGHT_MODE, is_dark=False)
-    with open("dist/spiderman-contribution-graph.svg", "w") as f:
-        f.write(light_svg)
-    print("✓ Created dist/spiderman-contribution-graph.svg")
-    
-    print("\nDone! Generated SVGs are ready for deployment.")
-    return True
+    grid = fetch_contribution_data(username)
+
+    print(f"Generating SVGs (grid: {len(grid)}x{len(grid[0]) if grid else 0})...")
+
+    # Generate light and dark versions
+    light_svg = build_svg(grid, COLORS_LIGHT)
+    dark_svg = build_svg(grid, COLORS_DARK)
+
+    # Write outputs
+    for path, content in [(out_light, light_svg), (out_dark, dark_svg)]:
+        os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(content)
+        print(f"✓ Generated {path}")
+
+    print("Done!")
 
 
 if __name__ == "__main__":
-    success = main()
-    exit(0 if success else 1)
+    main()

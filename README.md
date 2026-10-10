@@ -30,7 +30,7 @@
     </td>
     <td align="right" valign="middle" width="30%">
       <!-- Put your image URL or path here -->
-      <img src="https://github.com/user-attachments/assets/f09bd64e-f42b-4c27-9173-c580cf540b5d" width="320" alt="Character">
+      <img src="https://github.com/user-attachments/assets/d279154f-df98-4326-bec7-abc993f72b6e" width="300" alt="Character">
     </td>
   </tr>
 </table>

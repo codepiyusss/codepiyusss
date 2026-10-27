@@ -4,9 +4,9 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=codepiyusss&label=▶︎&style=for-the-badge&color=0d1117&base=5796)
 [![GitHub Followers](https://img.shields.io/github/followers/codepiyusss?style=for-the-badge&color=0d1117&labelColor=0d1117&logo=github&logoColor=ff1e27)](https://github.com/codepiyusss?tab=followers)
 [![Portfolio](https://img.shields.io/badge/Portfoilo-0d1117?style=for-the-badge&logo=product-hunt&logoColor=ff1e27&labelColor=0d1117)](https://codepiyusss.vercel.app/)
-<!--<img width="32" height="38" alt="image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a5874086-8b7b-4657-a21f-c97383d15603/d78sffu-f43d0284-067c-4781-a69d-27e2ea00f41f.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi9hNTg3NDA4Ni04YjdiLTQ2NTctYTIxZi1jOTczODNkMTU2MDMvZDc4c2ZmdS1mNDNkMDI4NC0wNjdjLTQ3ODEtYTY5ZC0yN2UyZWEwMGY0MWYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Rs-SBhJ2-ydslQXLyrqvyX8hOPknw0RnWKnlXawfJFw" /> 
+<!--<img width="32" height="38" alt="image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a5874086-8b7b-4657-a21f-c97383d15603/d78sffu-f43d0284-067c-4781-a69d-27e2ea00f41f.gif?token=e[...]
 -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&duration=2500&pause=1000&color=FF1E27&center=false&vCenter=false&width=435&lines=Computer+Science+Student;Python+%7C+AI%2FML;With+great+power+comes.....no+repository.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&duration=2500&pause=1000&color=FF1E27&center=false&vCenter=false&width=435&lines=Computer+Science+Student;Pytho[...]
 
 `I like building things`, `breaking them`, `and figuring out why they broke`.
 
@@ -54,11 +54,11 @@
 <table border="0.01">
   <tr>
     <td align="center" valign="middle">
-      <img src="https://github-readme-stats.vercel.app/api?username=codepiyusss&show_icons=true&bg_color=0d1117&title_color=ff1e27&icon_color=ff1e27&text_color=ffffff&border_color=ff1e27" alt="Piyush's GitHub Stats" />
+      <img src="https://github-readme-stats.vercel.app/api?username=codepiyusss&show_icons=true&bg_color=0d1117&title_color=ff1e27&icon_color=ff1e27&text_color=ffffff&border_color=ff1e27" alt="Piyush's GitHub stats">
     </td>
   </td>
   <td align="center" valign="middle">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=codepiyusss&theme=dark&background=0D1117&border=FF1E27&stroke=FF1E27&ring=FF1E27&fire=FF1E27&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FF1E27&sideLabels=FFFFFF&dates=888888" alt="GitHub Streak" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=codepiyusss&theme=dark&background=0D1117&border=FF1E27&stroke=FF1E27&ring=FF1E27&fire=FF1E27&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=FFFFFF&hide_border=true&hide_current_streak=false" alt="Current streak">
   </td>
   </tr>
 </table>
@@ -68,7 +68,7 @@
 ### `// web`
 
 [![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=ff1e27)](https://github.com/codepiyusss)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjU2JyBoZWlnaHQ9JzI1NicgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSd4TWlkWU1pZCcgdmlld0JveD0nMCAwIDI1NiAyNTYnPjxwYXRoIGQ9J00yMTguMTIzIDIxOC4xMjdoLTM3LjkzMXYtNTkuNDAzYzAtMTQuMTY1LS4yNTMtMzIuNC0xOS43MjgtMzIuNC0xOS43NTYgMC0yMi43NzkgMTUuNDM0LTIyLjc3OSAzMS4zNjl2NjAuNDNoLTM3LjkzVjk1Ljk2N2gzNi40MTN2MTYuNjk0aC41MWEzOS45MDcgMzkuOTA3IDAgMCAxIDM1LjkyOC0xOS43MzNjMzguNDQ1IDAgNDUuNTMzIDI1LjI4OCA0NS41MzMgNTguMTg2bC0uMDE2IDY3LjAxM1pNNTYuOTU1IDc5LjI3Yy0xMi4xNTcuMDAyLTIyLjAxNC05Ljg1Mi0yMi4wMTYtMjIuMDA5LS4wMDItMTIuMTU3IDkuODUxLTIyLjAxNCAyMi4wMDgtMjIuMDE2IDEyLjE1Ny0uMDAzIDIyLjAxNCA5Ljg1MSAyMi4wMTYgMjIuMDA4QTIyLjAxMyAyMi4wMTMgMCAwIDEgNTYuOTU1IDc5LjI3bTE4Ljk2NiAxMzguODU4SDM3Ljk1Vjk1Ljk2N2gzNy45N3YxMjIuMTZaTTIzNy4wMzMuMDE4SDE4Ljg5QzguNTgtLjA5OC4xMjUgOC4xNjEtLjAwMSAxOC40NzF2MjE5LjA1M2MuMTIyIDEwLjMxNSA4LjU3NiAxOC41ODIgMTguODkgMTguNDc0aDIxOC4xNDRjMTAuMzM2LjEyOCAxOC44MjMtOC4xMzkgMTguOTY2LTE4LjQ3NFYxOC40NTRjLS4xNDctMTAuMzMtOC42MzUtMTguNTg4LTE4Ljk2Ni0xOC40NTMnIGZpbGw9JyNmZmYnLz48L3N2Zz4K&logoColor=ff1e27)](https://linkedin.com/in/codepiyusss)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjU2JyBoZWlnaHQ9JzI1NicgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB[...]
 [![Mail Me](https://img.shields.io/badge/Gmail-0d1117?style=for-the-badge&logo=gmail&logoColor=ff1e27)](mailto:info.contactpiyush@gmail.com)
 [![Instagram](https://img.shields.io/badge/Instagram-0d1117?style=for-the-badge&logo=instagram&logoColor=ff1e27)](https://instagram.com/p.yussh)
 [![X](https://img.shields.io/badge/X-0d1117?style=for-the-badge&logo=x&logoColor=ff1e27)](https://x.com/codepiyusss)

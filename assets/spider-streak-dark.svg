@@ -373,7 +373,7 @@
 <rect x="640" y="110" width="10" height="10" fill="#006d32" stroke="#0d1117" stroke-width="0.35"/>
 <rect x="652" y="38" width="10" height="10" fill="#26a641" stroke="#0d1117" stroke-width="0.35"/>
 <rect x="652" y="50" width="10" height="10" fill="#26a641" stroke="#0d1117" stroke-width="0.35"/>
-<rect x="652" y="62" width="10" height="10" fill="#006d32" stroke="#0d1117" stroke-width="0.35"/>
+<rect x="652" y="62" width="10" height="10" fill="#26a641" stroke="#0d1117" stroke-width="0.35"/>
   </g>
   <g id="spider-animation" class="pulse">
 <g opacity="1.0">

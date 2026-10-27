@@ -4,6 +4,9 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "17 */6 * * *"
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write
@@ -11,24 +14,35 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Render real contributions
+      - name: Generate spider streak SVGs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/render_spider_streak.py
-
-      - name: Save generated images
         run: |
-          git add assets/spider-streak-dark.svg assets/spider-streak-light.svg
-          if ! git diff --cached --quiet; then
-            git -c user.name='github-actions[bot]' \
-                -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
-                commit -m 'Update spider streak'
-            git push
+          mkdir -p assets
+          python scripts/generate_spiderman_activity.py "${{ github.repository_owner }}" assets/spider-streak-light.svg assets/spider-streak-dark.svg
+
+      - name: Commit generated images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/spider-streak-light.svg assets/spider-streak-dark.svg
+
+          if git diff --cached --quiet; then
+            echo "No SVG changes to commit."
+            exit 0
           fi
+
+          git commit -m "Update spider streak"
+          git push

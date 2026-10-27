@@ -6,7 +6,7 @@
 [![Portfolio](https://img.shields.io/badge/Portfoilo-0d1117?style=for-the-badge&logo=product-hunt&logoColor=ff1e27&labelColor=0d1117)](https://codepiyusss.vercel.app/)
 <!--<img width="32" height="38" alt="image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a5874086-8b7b-4657-a21f-c97383d15603/d78sffu-f43d0284-067c-4781-a69d-27e2ea00f41f.gif?token=e[...]
 -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&duration=2500&pause=1000&color=FF1E27&center=false&vCenter=false&width=435&lines=Computer+Science+Student;Python+Developer;AI+Enthusiast;Open+Source+Explorer)]
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&duration=2500&pause=1000&color=FF1E27&center=false&vCenter=false&width=435&lines=Computer+Science+Student;Python+Developer;AI+Enthusiast;Open+Source+Explorer)
 
 `I like building things`, `breaking them`, `and figuring out why they broke`.
 
@@ -57,7 +57,7 @@
       <img src="https://github-readme-stats.vercel.app/api?username=codepiyusss&show_icons=true&bg_color=0d1117&title_color=ff1e27&icon_color=ff1e27&text_color=ffffff&border_color=ff1e27" alt="Piyush's GitHub stats">
     </td>
     <td align="center" valign="middle">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=codepiyusss&theme=dark&background=0D1117&border=FF1E27&stroke=FF1E27&ring=FF1E27&fire=FF1E27&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=FFFFFF&hide_border=true" alt="Current streak">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=codepiyusss&theme=dark&background=0D1117&border=FF1E27&stroke=FF1E27&ring=FF1E27&fire=FF1E27&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=888888" alt="Current streak">
     </td>
   </tr>
 </table>
@@ -67,7 +67,7 @@
 ### `// web`
 
 [![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=ff1e27)](https://github.com/codepiyusss)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjU2JyBoZWlnaHQ9JzI1NicgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB...)](https://www.linkedin.com/in/piyush-tiwari-0b4b/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=ff1e27)](https://www.linkedin.com/in/codepiyusss/)
 [![Mail Me](https://img.shields.io/badge/Gmail-0d1117?style=for-the-badge&logo=gmail&logoColor=ff1e27)](mailto:info.contactpiyush@gmail.com)
 [![Instagram](https://img.shields.io/badge/Instagram-0d1117?style=for-the-badge&logo=instagram&logoColor=ff1e27)](https://instagram.com/p.yussh)
 [![X](https://img.shields.io/badge/X-0d1117?style=for-the-badge&logo=x&logoColor=ff1e27)](https://x.com/codepiyusss)
@@ -75,4 +75,4 @@
 [![Reddit](https://img.shields.io/badge/Reddit-0d1117?style=for-the-badge&logo=reddit&logoColor=ff1e27)](https://www.reddit.com/user/Fickle_Phone_5533/)
 
 <br>
-<sub>with great powers comes no repository</sub>
+<sub>with great powers comes no repository....</sub>

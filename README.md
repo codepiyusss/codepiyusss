@@ -3,7 +3,7 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=codepiyusss&label=▶︎&style=for-the-badge&color=0d1117&base=5796)
 [![GitHub Followers](https://img.shields.io/github/followers/codepiyusss?style=for-the-badge&color=0d1117&labelColor=0d1117&logo=github&logoColor=ff1e27)](https://github.com/codepiyusss?tab=followers)
-[![Portfolio](https://img.shields.io/badge/Portfoilo-0d1117?style=for-the-badge&logo=product-hunt&logoColor=ff1e27&labelColor=0d1117)](https://portfolio-phi-fawn-98dglblujq.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfoilo-0d1117?style=for-the-badge&logo=product-hunt&logoColor=ff1e27&labelColor=0d1117)](https://codepiyusss.vercel.app/)
 <!--<img width="32" height="38" alt="image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a5874086-8b7b-4657-a21f-c97383d15603/d78sffu-f43d0284-067c-4781-a69d-27e2ea00f41f.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi9hNTg3NDA4Ni04YjdiLTQ2NTctYTIxZi1jOTczODNkMTU2MDMvZDc4c2ZmdS1mNDNkMDI4NC0wNjdjLTQ3ODEtYTY5ZC0yN2UyZWEwMGY0MWYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Rs-SBhJ2-ydslQXLyrqvyX8hOPknw0RnWKnlXawfJFw" /> 
 -->
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&duration=2500&pause=1000&color=FF1E27&center=false&vCenter=false&width=435&lines=Computer+Science+Student;Python+%7C+AI%2FML;With+great+power+comes.....no+repository.)](https://git.io/typing-svg)

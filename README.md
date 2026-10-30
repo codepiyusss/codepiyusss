@@ -3,10 +3,11 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=codepiyusss&label=▶︎&style=for-the-badge&color=001930&base=5796)
 [![GitHub Followers](https://img.shields.io/github/followers/codepiyusss?style=for-the-badge&color=001930&labelColor=001930&logo=github&logoColor=ff6300)](https://github.com/codepiyusss?tab=followers)
-[![Portfolio](https://img.shields.io/badge/Portfoilo-001930?style=for-the-badge&logo=product-hunt&logoColor=ff6300&labelColor=001930)](https://codepiyusss.vercel.app/)
-<!--<img width="32" height="38" alt="image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a5874086-8b7b-4657-a21f-c97383d15603/d78sffu-f43d0284-067c-4781-a69d-27e2ea00f41f.gif?token=e[...]
+[![GitHub Repo Stars](https://img.shields.io/github/stars/codepiyusss/codepiyusss?style=for-the-badge&color=001930&labelColor=001930&logo=star&logoColor=ff6300)](https://github.com/codepiyusss/codepiyusss/stargazers)
+[![Portfolio](https://img.shields.io/badge/Portfolio-001930?style=for-the-badge&logo=product-hunt&logoColor=ff6300&labelColor=001930)](https://codepiyusss.vercel.app/)
+<!--<img width="32" height="38" alt="image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a5874086-8b7b-4657-a21f-c97383d15603/d78sffu-f43d0284-067c-4781-a69d-27e2ea00f41f.gif?toke[...]
 -->
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&duration=2500&pause=1000&color=FF6300&center=false&vCenter=false&width=435&lines=Computer+Science+Student;Python+Developer;AI+Enthusiast;Open+Source+Explorer)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&duration=2500&pause=1000&color=FF6300&center=false&vCenter=false&width=435&lines=Computer+Science+Student;Pyt[...]
 
 `I like building things`, `breaking them`, `and figuring out why they broke`.
 
@@ -30,7 +31,9 @@
     </td>
     <td align="right" valign="middle" width="30%">
       <!-- Put your image URL or path here -->
-      <img src="" alt="Character">
+      <img src="https://img.shields.io/badge/Focus-AI_%2B_Backend-001930?style=for-the-badge&logo=codeforces&logoColor=ff6300&labelColor=001930" alt="Current focus">
+      <br><br>
+      <img src="https://img.shields.io/badge/Builds-Systems_%26_Experiments-001930?style=for-the-badge&logo=githubactions&logoColor=ff6300&labelColor=001930" alt="Systems and experiments">
     </td>
   </tr>
 </table>
@@ -50,10 +53,12 @@
 <table border="0.01">
   <tr>
     <td align="center" valign="middle">
-      <img src="https://github-readme-stats.vercel.app/api?username=codepiyusss&show_icons=true&bg_color=000e1b&title_color=ff6300&icon_color=ff3d00&text_color=ffe9da&border_color=ff6300" alt="Piyush's GitHub stats">
+      <img src="https://github-readme-stats.vercel.app/api?username=codepiyusss&show_icons=true&bg_color=000e1b&title_color=ff6300&icon_color=ff3d00&text_color=ffe9da&border_color=ff6300" alt="GitHub stats">
+      <br><br>
+      <img src="https://img.shields.io/badge/Language_Stack-Python_%7C_AI_%7C_Backend-001930?style=for-the-badge&logo=python&logoColor=ff6300&labelColor=001930" alt="Language stack">
     </td>
     <td align="center" valign="middle">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=codepiyusss&theme=dark&background=000E1B&border=FF6300&stroke=FF6300&ring=FF6300&fire=FF3D00&currStreakNum=FFE9DA&sideNums=FFE9DA&currStreakLabel=FFE9DA&sideLabels=FFE9DA&dates=FFE9DA" alt="Current streak">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=codepiyusss&theme=dark&background=000E1B&border=FF6300&stroke=FF6300&ring=FF6300&fire=FF3D00&currStreakNum=FFE9DA&sideNums=FF6300&sideLabels=FFE9DA&dates=FFE9DA&locale=en" alt="GitHub streak stats">
     </td>
   </tr>
 </table>

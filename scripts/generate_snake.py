@@ -413,26 +413,9 @@ def _board(grid: Grid, width: int, height: int, eaten: set[Cell] | None = None) 
         f'<path d="{_cell_path(ordered)}" fill="{NAVY}"/>',
     ]
     for level in (1, 2, 3, 4):
-        cells = [c for c in ordered if grid.cells[c] == level]
+        cells = [c for c in ordered if grid.cells[c] == level and c not in eaten]
         if cells:
-            rendered = []
-            for c in cells:
-                if c in eaten:
-                    rendered.append((c[0], c[1], NAVY, 0.12))
-                else:
-                    rendered.append((c[0], c[1], PEACH, LEVEL_OPACITY[level]))
-            for c, r, color, opacity in [(c, r, color, opacity) for c, r, color, opacity in [(c[0], c[1], PEACH, LEVEL_OPACITY[level]) for c in []]]:
-                pass
-            if rendered:
-                blocks = [f'M{PAD + c * PITCH} {PAD + r * PITCH}h{CELL}v{CELL}h-{CELL}z' for c, r, _, _ in rendered]
-                if blocks:
-                    parts.append(f'<path d="{"".join(blocks)}" fill="{PEACH}" fill-opacity="0.12"/>')
-                    # Render the remaining active contribution blocks separately.
-                    active = [c for c, r, color, opacity in rendered if color != NAVY]
-                    if active:
-                        active_paths = [f'M{PAD + c * PITCH} {PAD + r * PITCH}h{CELL}v{CELL}h-{CELL}z' for c, r, _, _ in rendered if (c, r, color, opacity) in [(c, r, color, opacity) for c, r, color, opacity in rendered if color != NAVY]]
-                        if active_paths:
-                            parts.append(f'<path d="{"".join(active_paths)}" fill="{PEACH}" fill-opacity="{LEVEL_OPACITY[level]}"/>')
+            parts.append(f'<path d="{_cell_path(cells)}" fill="{PEACH}" fill-opacity="{LEVEL_OPACITY[level]}"/>')
     return "\n".join(parts)
 
 
@@ -542,9 +525,9 @@ def snapshot_svg(game: Game, tau: float) -> str:
     fade_start = game.ticks + HOLD_TICKS
     fade = 1.0 if tau <= fade_start else max(0.0, 1 - (tau - fade_start) / FADE_TICKS)
     times = segment_times(game)
-    consumed = {cell for _, cell in game.eats if tau >= _ for _ in [0]}
+    consumed = {cell for _, cell in game.eats}
 
-    parts = [_board(grid, width, height, eaten={cell for _, cell in game.eats if tau >= 0})]
+    parts = [_board(grid, width, height, eaten=consumed)]
     snake = []
     for i in range(game.length - 1, -1, -1):
         if tau < times[i]:

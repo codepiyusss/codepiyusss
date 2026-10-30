@@ -1,12 +1,12 @@
 # Piyush <img src="https://raw.githubusercontent.com/vinkay215/vinkay215/refs/heads/main/img/verified.gif" width=20 />
 
 
-![Profile Views](https://komarev.com/ghpvc/?username=codepiyusss&label=▶︎&style=for-the-badge&color=0d1117&base=5796)
-[![GitHub Followers](https://img.shields.io/github/followers/codepiyusss?style=for-the-badge&color=0d1117&labelColor=0d1117&logo=github&logoColor=ff1e27)](https://github.com/codepiyusss?tab=followers)
-[![Portfolio](https://img.shields.io/badge/Portfoilo-0d1117?style=for-the-badge&logo=product-hunt&logoColor=ff1e27&labelColor=0d1117)](https://codepiyusss.vercel.app/)
+![Profile Views](https://komarev.com/ghpvc/?username=codepiyusss&label=▶︎&style=for-the-badge&color=001930&base=5796)
+[![GitHub Followers](https://img.shields.io/github/followers/codepiyusss?style=for-the-badge&color=001930&labelColor=001930&logo=github&logoColor=ff6300)](https://github.com/codepiyusss?tab=followers)
+[![Portfolio](https://img.shields.io/badge/Portfoilo-001930?style=for-the-badge&logo=product-hunt&logoColor=ff6300&labelColor=001930)](https://codepiyusss.vercel.app/)
 <!--<img width="32" height="38" alt="image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a5874086-8b7b-4657-a21f-c97383d15603/d78sffu-f43d0284-067c-4781-a69d-27e2ea00f41f.gif?token=e[...]
 -->
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&duration=2500&pause=1000&color=FF1E27&center=false&vCenter=false&width=435&lines=Computer+Science+Student;Python+Developer;AI+Enthusiast;Open+Source+Explorer)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&duration=2500&pause=1000&color=FF6300&center=false&vCenter=false&width=435&lines=Computer+Science+Student;Python+Developer;AI+Enthusiast;Open+Source+Explorer)
 
 `I like building things`, `breaking them`, `and figuring out why they broke`.
 
@@ -18,19 +18,19 @@
   <tr>
     <td align="left" valign="middle" width="70%" border=".5">
       <!-- Paste your skill badges here -->
-      <img src="https://img.shields.io/badge/PYTHON-0d1117?style=for-the-badge&logo=python&logoColor=ff1e27&labelColor=0d1117" alt="Python">
-      <img src="https://img.shields.io/badge/AI-0d1117?style=for-the-badge&logo=metaai&logoColor=ff1e27&labelColor=0d1117" alt="AI">
-      <img src="https://img.shields.io/badge/MACHINE_LEARNING-0d1117?style=for-the-badge&logo=scikit-learn&logoColor=ff1e27&labelColor=0d1117" alt="Machine Learning">
-      <img src="https://img.shields.io/badge/GIT-0d1117?style=for-the-badge&logo=git&logoColor=ff1e27&labelColor=0d1117" alt="Git">
-      <img src="https://img.shields.io/badge/GITHUB-0d1117?style=for-the-badge&logo=github&logoColor=ff1e27&labelColor=0d1117" alt="Github">
-      <img src="https://img.shields.io/badge/Scikit Learn-0d1117?style=for-the-badge&logo=scikitlearn&logoColor=ff1e27&labelColor=0d1117" alt="SciKitLearn">
-      <img src="https://img.shields.io/badge/Flask-0d1117?style=for-the-badge&logo=flask&logoColor=ff1e27&labelColor=0d1117" alt="Flask">
-      <img src="https://img.shields.io/badge/Java-0d1117?style=for-the-badge&logo=openjdk&logoColor=ff1e27&labelColor=0d1117" alt="java">
-      <img src="https://img.shields.io/badge/Node.js-0d1117?style=for-the-badge&logo=node.js&logoColor=ff1e27&labelColor=0d1117" alt="Node.js">
+      <img src="https://img.shields.io/badge/PYTHON-001930?style=for-the-badge&logo=python&logoColor=ff6300&labelColor=001930" alt="Python">
+      <img src="https://img.shields.io/badge/AI-001930?style=for-the-badge&logo=metaai&logoColor=ff6300&labelColor=001930" alt="AI">
+      <img src="https://img.shields.io/badge/MACHINE_LEARNING-001930?style=for-the-badge&logo=scikit-learn&logoColor=ff6300&labelColor=001930" alt="Machine Learning">
+      <img src="https://img.shields.io/badge/GIT-001930?style=for-the-badge&logo=git&logoColor=ff6300&labelColor=001930" alt="Git">
+      <img src="https://img.shields.io/badge/GITHUB-001930?style=for-the-badge&logo=github&logoColor=ff6300&labelColor=001930" alt="Github">
+      <img src="https://img.shields.io/badge/Scikit Learn-001930?style=for-the-badge&logo=scikitlearn&logoColor=ff6300&labelColor=001930" alt="SciKitLearn">
+      <img src="https://img.shields.io/badge/Flask-001930?style=for-the-badge&logo=flask&logoColor=ff6300&labelColor=001930" alt="Flask">
+      <img src="https://img.shields.io/badge/Java-001930?style=for-the-badge&logo=openjdk&logoColor=ff6300&labelColor=001930" alt="java">
+      <img src="https://img.shields.io/badge/Node.js-001930?style=for-the-badge&logo=node.js&logoColor=ff6300&labelColor=001930" alt="Node.js">
     </td>
     <td align="right" valign="middle" width="30%">
       <!-- Put your image URL or path here -->
-      <img src="https://github.com/user-attachments/assets/d279154f-df98-4326-bec7-abc993f72b6e" width="300" alt="Character">
+      <img src="" alt="Character">
     </td>
   </tr>
 </table>
@@ -40,11 +40,7 @@
 ### `// activity`
 
 <p align="center">
-  <picture data-importer="pacman">
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/codepiyusss/codepiyusss/pacman-output/pacman-contribution-graph-dark.svg?game=pacman">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/codepiyusss/codepiyusss/pacman-output/pacman-contribution-graph.svg?game=pacman">
-    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/codepiyusss/codepiyusss/pacman-output/pacman-contribution-graph.svg?game=pacman" width="100%">
-  </picture>
+  <img alt="Pixel-art snake playing on my GitHub contribution graph" src="https://raw.githubusercontent.com/codepiyusss/codepiyusss/snake-output/snake-contribution-graph.svg" width="100%">
 </p>
 
 ---
@@ -54,10 +50,10 @@
 <table border="0.01">
   <tr>
     <td align="center" valign="middle">
-      <img src="https://github-readme-stats.vercel.app/api?username=codepiyusss&show_icons=true&bg_color=0d1117&title_color=ff1e27&icon_color=ff1e27&text_color=ffffff&border_color=ff1e27" alt="Piyush's GitHub stats">
+      <img src="https://github-readme-stats.vercel.app/api?username=codepiyusss&show_icons=true&bg_color=000e1b&title_color=ff6300&icon_color=ff3d00&text_color=ffe9da&border_color=ff6300" alt="Piyush's GitHub stats">
     </td>
     <td align="center" valign="middle">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=codepiyusss&theme=dark&background=0D1117&border=FF1E27&stroke=FF1E27&ring=FF1E27&fire=FF1E27&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=888888" alt="Current streak">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=codepiyusss&theme=dark&background=000E1B&border=FF6300&stroke=FF6300&ring=FF6300&fire=FF3D00&currStreakNum=FFE9DA&sideNums=FFE9DA&currStreakLabel=FFE9DA&sideLabels=FFE9DA&dates=FFE9DA" alt="Current streak">
     </td>
   </tr>
 </table>
@@ -66,13 +62,13 @@
 
 ### `// web`
 
-[![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=ff1e27)](https://github.com/codepiyusss)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=ff1e27)](https://www.linkedin.com/in/codepiyusss/)
-[![Mail Me](https://img.shields.io/badge/Gmail-0d1117?style=for-the-badge&logo=gmail&logoColor=ff1e27)](mailto:info.contactpiyush@gmail.com)
-[![Instagram](https://img.shields.io/badge/Instagram-0d1117?style=for-the-badge&logo=instagram&logoColor=ff1e27)](https://instagram.com/p.yussh)
-[![X](https://img.shields.io/badge/X-0d1117?style=for-the-badge&logo=x&logoColor=ff1e27)](https://x.com/codepiyusss)
-[![Telegram](https://img.shields.io/badge/telegram-0d1117?style=for-the-badge&logo=telegram&logoColor=ff1e27)](https://t.me/p_yussh)
-[![Reddit](https://img.shields.io/badge/Reddit-0d1117?style=for-the-badge&logo=reddit&logoColor=ff1e27)](https://www.reddit.com/user/Fickle_Phone_5533/)
+[![GitHub](https://img.shields.io/badge/GitHub-001930?style=for-the-badge&logo=github&logoColor=ff6300)](https://github.com/codepiyusss)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-001930?style=for-the-badge&logo=linkedin&logoColor=ff6300)](https://www.linkedin.com/in/codepiyusss/)
+[![Mail Me](https://img.shields.io/badge/Gmail-001930?style=for-the-badge&logo=gmail&logoColor=ff6300)](mailto:info.contactpiyush@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-001930?style=for-the-badge&logo=instagram&logoColor=ff6300)](https://instagram.com/p.yussh)
+[![X](https://img.shields.io/badge/X-001930?style=for-the-badge&logo=x&logoColor=ff6300)](https://x.com/codepiyusss)
+[![Telegram](https://img.shields.io/badge/telegram-001930?style=for-the-badge&logo=telegram&logoColor=ff6300)](https://t.me/p_yussh)
+[![Reddit](https://img.shields.io/badge/Reddit-001930?style=for-the-badge&logo=reddit&logoColor=ff6300)](https://www.reddit.com/user/Fickle_Phone_5533/)
 
 <br>
 <sub>with great powers comes no repository....</sub>

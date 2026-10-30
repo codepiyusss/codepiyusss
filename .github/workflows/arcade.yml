@@ -1,14 +1,18 @@
 name: Generate arcade animation
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
+  schedule: # every 12 hours
+    - cron: "0 */12 * * *"
 
   workflow_dispatch:
 
   push:
     branches:
-    - main
+      - main
+
+concurrency:
+  group: arcade
+  cancel-in-progress: false
 
 jobs:
   generate:
@@ -18,17 +22,21 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      - name: generate pacman-contribution-graph.svg
-        uses: abozanona/pacman-contribution-graph@main
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          games: 'pacman'
+      - name: Check out repository
+        uses: actions/checkout@v4
 
-
-      - name: push pacman-contribution-graph.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          target_branch: pacman-output
-          build_dir: dist
+          python-version: "3.12"
+
+      - name: Run tests
+        run: python -m unittest discover -s tests
+
+      - name: Generate snake-contribution-graph.svg
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_snake.py --user "${{ github.repository_owner }}" --output dist/snake-contribution-graph.svg
+
+      - name: Push snake-contribution-graph.svg to the output branch
+        run: bash scripts/publish_output.sh dist/snake-contribution-graph.svg snake-output

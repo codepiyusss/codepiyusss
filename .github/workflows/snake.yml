@@ -25,8 +25,9 @@ jobs:
         with:
           github_user_name: codepiyusss
           outputs: |
-            dist/github-snake.gif?color_snake=%23ff6300&color_dots=%23000e1b,%23001930,%23ff3d00,%23ff6300,%23ffe9da&color_background=%23001930
-            dist/github-snake.svg?color_snake=%23ff6300&color_dots=%23000e1b,%23001930,%23ff3d00,%23ff6300,%23ffe9da
+            dist/github-snake.gif?color_snake=%23ffe9da&color_dots=%23001930,%23163047,%238f2d18,%23ff3d00,%23ff6300&color_background=%23000e1b
+            dist/github-snake.svg?color_snake=%23ffe9da&color_dots=%23001930,%23163047,%238f2d18,%23ff3d00,%23ff6300
+
 
       - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v4

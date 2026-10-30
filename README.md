@@ -16,10 +16,7 @@
 
 ### `// currently`
 
-<table>
-  <tr>
-    <td align="left" valign="middle" width="70%" border=".5">
-      <!-- Paste your skill badges here -->
+<p>    
       <img src="https://img.shields.io/badge/PYTHON-001930?style=for-the-badge&logo=python&logoColor=ff6300&labelColor=001930" alt="Python">
       <img src="https://img.shields.io/badge/AI-001930?style=for-the-badge&logo=metaai&logoColor=ff6300&labelColor=001930" alt="AI">
       <img src="https://img.shields.io/badge/MACHINE_LEARNING-001930?style=for-the-badge&logo=scikit-learn&logoColor=ff6300&labelColor=001930" alt="Machine Learning">
@@ -29,14 +26,7 @@
       <img src="https://img.shields.io/badge/Flask-001930?style=for-the-badge&logo=flask&logoColor=ff6300&labelColor=001930" alt="Flask">
       <img src="https://img.shields.io/badge/Java-001930?style=for-the-badge&logo=openjdk&logoColor=ff6300&labelColor=001930" alt="java">
       <img src="https://img.shields.io/badge/Node.js-001930?style=for-the-badge&logo=node.js&logoColor=ff6300&labelColor=001930" alt="Node.js">
-    </td>
-    <td align="right" valign="middle" width="30%">
-      <!-- Put your image URL or path here -->
-      <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="200" alt="Python">
-    </td>
-  </tr>
-</table>
-
+</p>
 ---
 
 ### `// activity`
@@ -49,10 +39,13 @@
 
 ### `// stats`
 
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=codepiyusss&theme=2077&title_color=ff6300&text_color=ffffff&bg_color=000e1b&border_color=ff6300&icon_color=ff6300&chart_color=fb8c00" width="100%" style="display: block;" />
+</div>
 <table border="0.01">
   <tr>
     <td align="center" valign="middle">
-      <img src="https://github-readme-stats.vercel.app/api?username=codepiyusss&show_icons=true&bg_color=000e1b&title_color=ff6300&icon_color=ff3d00&text_color=ffe9da&border_color=ff6300" alt="GitHub stats">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=codepiyusss&theme=2077&title_color=ff6300&text_color=ffffff&bg_color=000e1b&border_color=ff6300&icon_color=ff6300&chart_color=fb8c00" alt="GitHub stats">
       <br><br>
     </td>
     <td align="center" valign="middle">

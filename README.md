@@ -27,12 +27,18 @@
       <img src="https://img.shields.io/badge/Java-001930?style=for-the-badge&logo=openjdk&logoColor=ff6300&labelColor=001930" alt="java">
       <img src="https://img.shields.io/badge/Node.js-001930?style=for-the-badge&logo=node.js&logoColor=ff6300&labelColor=001930" alt="Node.js">
 </p>
+
 ---
 
 ### `// activity`
 
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/codepiyusss/codepiyusss/output/github-snake.gif" alt="GitHub Contribution Snake Animation" width="100%"/>
+  <img
+    src="https://raw.githubusercontent.com/codepiyusss/codepiyusss/output/github-snake.gif"
+    alt="GitHub Contribution Snake"
+    width="100%"
+  />
 </p>
 
 ---

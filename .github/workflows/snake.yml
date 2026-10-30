@@ -1,0 +1,37 @@
+
+name: Generate Snake Contribution Animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate Snake Animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: codepiyusss
+          outputs: |
+            dist/github-snake.gif?color_snake=%23ff6300&color_dots=%23000e1b,%23001930,%23ff3d00,%23ff6300,%23ffe9da&color_background=%23001930
+            dist/github-snake.svg?color_snake=%23ff6300&color_dots=%23000e1b,%23001930,%23ff3d00,%23ff6300,%23ffe9da
+
+      - name: Deploy to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

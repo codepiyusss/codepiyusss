@@ -32,7 +32,7 @@
 ### `// activity`
 
 <p align="center">
-  <img alt="Pixel-art snake playing on my GitHub contribution graph" src="https://raw.githubusercontent.com/codepiyusss/codepiyusss/snake-output/snake-contribution-graph.svg" width="100%">
+  <img src="https://raw.githubusercontent.com/codepiyusss/codepiyusss/output/github-snake.gif" alt="GitHub Contribution Snake Animation" width="100%"/>
 </p>
 
 ---

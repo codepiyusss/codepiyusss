@@ -29,6 +29,7 @@ jobs:
       - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
+          github_user_name: ${{ github.repository_owner }}
           target_branch: output
           build_dir: dist
         env:

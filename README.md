@@ -46,16 +46,16 @@
 ### `// stats`
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=codepiyusss&theme=2077&title_color=ff6300&text_color=ffffff&bg_color=000e1b&border_color=ff6300&icon_color=ff6300&chart_color=fb8c00" width="100%" style="display: block;" />
+  <img src="https://raw.githubusercontent.com/codepiyusss/codepiyusss/stats-output/profile-summary-card-output/2077/3-stats.svg" width="100%" style="display: block;" />
 </div>
 <table border="0.01">
   <tr>
     <td align="center" valign="middle">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=codepiyusss&theme=2077&title_color=ff6300&text_color=ffffff&bg_color=000e1b&border_color=ff6300&icon_color=ff6300&chart_color=fb8c00" alt="GitHub stats">
+      <img src="https://raw.githubusercontent.com/codepiyusss/codepiyusss/stats-output/profile-summary-card-output/2077/0-profile-details.svg" alt="GitHub stats">
       <br><br>
     </td>
     <td align="center" valign="middle">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=codepiyusss&theme=dark&background=000E1B&border=FF6300&stroke=FF6300&ring=FF6300&fire=FF3D00&currStreakNum=FFE9DA&sideNums=FF6300&sideLabels=FFE9DA&dates=FFE9DA&locale=en" alt="GitHub streak stats">
+      <img src="https://streak-stats.demolab.com/?user=codepiyusss&theme=dark&background=000E1B&border=FF6300&stroke=FF6300&ring=FF6300&fire=FF3D00&currStreakNum=FFE9DA&sideNums=FF6300&sideLabels=FFE9DA&dates=FFE9DA&locale=en" alt="GitHub streak stats">
     </td>
   </tr>
 </table>

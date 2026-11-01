@@ -1,0 +1,54 @@
+
+name: Update Custom GitHub Profile Cards
+
+on:
+  schedule:
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/profile-stats.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate custom SVG cards
+        run: |
+          mkdir -p dist
+
+          curl -fLsS \
+            "https://github-profile-summary-cards.vercel.app/api/cards/stats?username=codepiyusss&theme=2077&title_color=ff6300&text_color=ffffff&bg_color=000e1b&border_color=ff6300&icon_color=ff6300&chart_color=fb8c00&cache=${GITHUB_RUN_ID}" \
+            -o dist/stats.svg
+
+          curl -fLsS \
+            "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=codepiyusss&theme=2077&title_color=ff6300&text_color=ffffff&bg_color=000e1b&border_color=ff6300&icon_color=ff6300&chart_color=fb8c00&cache=${GITHUB_RUN_ID}" \
+            -o dist/profile-details.svg
+
+          test -s dist/stats.svg
+          test -s dist/profile-details.svg
+
+      - name: Publish cards to stats-output branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git checkout --orphan stats-output
+          git rm -rf .
+
+          mkdir -p profile-cards
+          cp dist/stats.svg profile-cards/stats.svg
+          cp dist/profile-details.svg profile-cards/profile-details.svg
+
+          git add profile-cards
+          git commit -m "Update custom profile cards"
+          git push origin HEAD:stats-output --force

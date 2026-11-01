@@ -46,16 +46,19 @@
 ### `// stats`
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/codepiyusss/codepiyusss/stats-output/profile-summary-card-output/2077/3-stats.svg" width="100%" style="display: block;" />
+  <img src="https://ghstats.dev/api/sparkline?username=codepiyusss&days=30&width=900&height=180&line_color=ff6300&fill_color=ff3d00&title=CONTRIBUTION%20ACTIVITY&border_radius=8" width="100%" style="display: block;" />
 </div>
 <table border="0.01">
   <tr>
     <td align="center" valign="middle">
-      <img src="https://raw.githubusercontent.com/codepiyusss/codepiyusss/stats-output/profile-summary-card-output/2077/0-profile-details.svg" alt="GitHub stats">
-      <br><br>
+          <div align="center">
+              <img src="https://ghstats.dev/api/card?username=codepiyusss&bg=000e1b&text=ffe9da&title_color=ff6300&icon_color=ff6300&border_color=ff6300" width="100%" style="display: block;" />
+          </div>
     </td>
     <td align="center" valign="middle">
-      <img src="https://streak-stats.demolab.com/?user=codepiyusss&theme=dark&background=000E1B&border=FF6300&stroke=FF6300&ring=FF6300&fire=FF3D00&currStreakNum=FFE9DA&sideNums=FF6300&sideLabels=FFE9DA&dates=FFE9DA&locale=en" alt="GitHub streak stats">
+          <div align="center">
+              <img src="https://streak-stats.demolab.com/?user=codepiyusss&theme=dark&background=000E1B&border=FF6300&stroke=FF6300&ring=FF6300&fire=FF3D00&currStreakNum=FFE9DA&sideNums=FF6300&sideLabels=FFE9DA&dates=FFE9DA&locale=en" width="100%" style="display: block;" />
+          </div>
     </td>
   </tr>
 </table>

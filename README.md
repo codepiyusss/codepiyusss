@@ -1,5 +1,6 @@
 # Piyush <img src="https://raw.githubusercontent.com/vinkay215/vinkay215/refs/heads/main/img/verified.gif" width=20 />
 
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=18&duration=1500&pause=1500&color=FF6300&center=false&vCenter=true&width=435&lines=श्री+गणेशाय+नमः;कर्मण्येवाधिकारस्ते+मा+फलेषु+कदाचन;न+हि+ज्ञानेन+सदृशं+पवित्रमिह+विद्यते;उद्यमेन+हि+सिध्यन्ति+कार्याणि+न+मनोरथैः)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=codepiyusss&label=▶︎&style=for-the-badge&color=001930&base=5796)
 [![GitHub Followers](https://img.shields.io/github/followers/codepiyusss?style=for-the-badge&color=001930&labelColor=001930&logo=github&logoColor=ff6300)](https://github.com/codepiyusss?tab=followers)
@@ -8,7 +9,7 @@
 
 <!--<img width="32" height="38" alt="image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a5874086-8b7b-4657-a21f-c97383d15603/d78sffu-f43d0284-067c-4781-a69d-27e2ea00f41f.gif?toke[...]
 -->
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&duration=2500&pause=1000&color=FF6300&center=false&vCenter=false&width=435&lines=Computer+Science+Student;Python+Developer;AI+Enthusiast;Open+Source+Explorer)
+
 
 `I like building things`, `breaking them`, `and figuring out why they broke`.
 

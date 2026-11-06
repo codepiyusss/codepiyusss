@@ -1,10 +1,5 @@
 # Piyush <img src="https://raw.githubusercontent.com/vinkay215/vinkay215/refs/heads/main/img/verified.gif" width=20 />
 
-<p align="center">
-  <code>// with great power comes no repository.... except for this one 🚀</code>
-</p>
-
-
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=18&duration=1500&pause=1500&color=FF6300&center=false&vCenter=true&width=435&lines=श्री+गणेशाय+नमः;कर्मण्येवाधिकारस्ते+मा+फलेषु+कदाचन;न+हि+ज्ञानेन+सदृशं+पवित्रमिह+विद्यते;उद्यमेन+हि+सिध्यन्ति+कार्याणि+न+मनोरथैः)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=codepiyusss&label=▶︎&style=for-the-badge&color=001930&base=5796)

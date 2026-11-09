@@ -93,7 +93,7 @@
 [![Instagram](https://img.shields.io/badge/Instagram-001930?style=for-the-badge&logo=instagram&logoColor=ff6300)](https://instagram.com/p.yussh)
 [![X](https://img.shields.io/badge/X-001930?style=for-the-badge&logo=x&logoColor=ff6300)](https://x.com/codepiyusss)
 [![Telegram](https://img.shields.io/badge/telegram-001930?style=for-the-badge&logo=telegram&logoColor=ff6300)](https://t.me/p_yussh)
-[![Reddit](https://img.shields.io/badge/Reddit-001930?style=for-the-badge&logo=reddit&logoColor=ff6300)](https://www.reddit.com/user/Fickle_Phone_5533/)
+[![Reddit](https://img.shields.io/badge/Reddit-001930?style=for-the-badge&logo=reddit&logoColor=ff6300)](https://www.reddit.com/user/pyussh/)
 
 <br>
 <sub>with great powers comes no repository....</sub>

@@ -95,13 +95,5 @@
 [![Telegram](https://img.shields.io/badge/telegram-001930?style=for-the-badge&logo=telegram&logoColor=ff6300)](https://t.me/p_yussh)
 [![Reddit](https://img.shields.io/badge/Reddit-001930?style=for-the-badge&logo=reddit&logoColor=ff6300)](https://www.reddit.com/user/pyussh/)
 
-
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/codepiyusss/codepiyusss/gitascii/profiles/default/dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/codepiyusss/codepiyusss/gitascii/profiles/default/light.svg">
-  <img alt="GitAscii Profile" src="https://raw.githubusercontent.com/codepiyusss/codepiyusss/gitascii/profiles/default/dark.svg" width="100%">
-</picture>
-
 <br>
 <sub>with great powers comes no repository....</sub>
